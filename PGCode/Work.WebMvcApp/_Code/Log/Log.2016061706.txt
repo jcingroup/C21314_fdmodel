@@ -1,0 +1,2 @@
+﻿2016-06-17 06:54:20.541=>Could not load file or assembly 'MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' or one of its dependencies. 系統找不到指定的檔案。
+2016-06-17 06:56:49.722=>Could not load file or assembly 'MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' or one of its dependencies. 系統找不到指定的檔案。

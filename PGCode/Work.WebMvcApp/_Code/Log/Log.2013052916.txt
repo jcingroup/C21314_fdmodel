@@ -1,0 +1,11 @@
+﻿2013-05-29 16:39:59.682=>[SystemError][I:0,::1,IE.10.0][a_Users.SystemLogin][M:<[Login_Err_Password][   於 ProcCore.Business.Logic.a_Users.SystemLogin(String account, String password) 於 d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs: 行 1431]>]
+2013-05-29 16:39:59.682=>ajax_Login Login Fail!：無法登錄!請重輸入帳號或密碼。
+2013-05-29 16:40:03.083=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-05-29 16:40:03.504=>ajax_Login Login OK!：1
+2013-05-29 16:40:03.722=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-05-29 16:40:03.785=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-05-29 16:40:06.686=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-05-29 16:40:11.179=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-05-29 16:40:13.675=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-05-29 16:40:24.164=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-05-29 16:40:47.740=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]

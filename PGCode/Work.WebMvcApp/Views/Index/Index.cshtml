@@ -1,0 +1,22 @@
+﻿@{
+  Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@section styles {
+	<link rel="stylesheet" href="~/Content/css/index.css">
+	<script src="~/Scripts/swfobject.js"></script>
+}
+
+<div id="banner"></div>
+<script type="text/javascript">
+	// <![CDATA[
+	var so = new SWFObject("@Url.Content("~/Content/home_flash.swf")", "STYLE ARENA", "976px", "522px", "10", "transparent");
+	so.addParam("quality", "high");
+	so.addParam("salign", "");
+	so.addParam("scale", "noscale");
+	so.addParam("wmode", "transparent");
+	so.addParam("allowScriptAccess", "always");
+	so.addParam("base", ".");
+	so.write("banner");
+	// ]]>
+</script>

@@ -1,0 +1,13 @@
+﻿2013-07-18 09:28:23.849=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-07-18 09:28:34.737=>ajax_Login Login OK!：1
+2013-07-18 09:28:35.018=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:28:35.080=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:28:39.261=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-07-18 09:28:48.590=>ajax_Login Login OK!：1
+2013-07-18 09:28:48.933=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:29:00.147=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:29:00.194=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:29:03.407=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:29:06.246=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:29:13.469=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-07-18 09:29:15.684=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]

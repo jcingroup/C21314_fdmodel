@@ -1,0 +1,113 @@
+﻿2013-06-05 18:00:55.463=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertMaster][M:<[Column '付款金額' does not allow nulls.][   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5790]>]
+2013-06-05 18:00:55.481=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertCross][M:<[[Message:Column '付款金額' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5790]][   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5665]>]
+2013-06-05 18:00:55.495=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_ShoppingUpdate][M:[Message:[Message:Column '付款金額' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5790]][Track:   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5665]]
+2013-06-05 18:06:21.395=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertMaster][M:<[Column '付款金額' does not allow nulls.][   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5790]>]
+2013-06-05 18:06:21.410=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertCross][M:<[[Message:Column '付款金額' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5790]][   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5665]>]
+2013-06-05 18:06:21.423=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_ShoppingUpdate][M:[Message:[Message:Column '付款金額' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5790]][Track:   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5665]]
+2013-06-05 18:08:04.484=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_ShoppingUpdate][M:验证码不正确]
+2013-06-05 18:18:57.060=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]
+2013-06-05 18:36:49.274=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 18:36:49.722=>ajax_Login Login OK!：1
+2013-06-05 18:36:49.949=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:36:50.002=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:36:52.457=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:37:10.022=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:37:10.052=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:37:11.877=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:37:14.049=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:38:51.758=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 18:38:52.188=>ajax_Login Login OK!：1
+2013-06-05 18:38:52.408=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:38:52.478=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:38:53.740=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:38:57.520=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:38:57.560=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:38:58.272=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:38:59.375=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:33.298=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 18:40:33.688=>ajax_Login Login OK!：1
+2013-06-05 18:40:33.908=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:33.978=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:36.466=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:39.783=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:39.793=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:41.433=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:43.156=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:40:46.823=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:41:51.093=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:41:51.123=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:41:52.173=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:41:54.213=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:41:57.028=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:42:04.623=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:42:17.053=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:42:31.878=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:42:33.538=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:42:33.968=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:42:35.468=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:48:09.518=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 18:48:09.918=>ajax_Login Login OK!：1
+2013-06-05 18:48:10.138=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:48:10.208=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:48:12.740=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:48:14.598=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:48:14.638=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:48:16.180=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:48:17.605=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:16.888=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 18:51:17.296=>ajax_Login Login OK!：1
+2013-06-05 18:51:17.558=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:17.618=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:20.145=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:24.858=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:24.878=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:26.433=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:27.775=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:31.200=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:36.918=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:40.653=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:40.675=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:41.068=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:43.703=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:44.168=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:56.735=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:58.353=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 18:51:58.790=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]

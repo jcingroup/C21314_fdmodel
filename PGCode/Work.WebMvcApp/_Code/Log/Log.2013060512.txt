@@ -1,0 +1,98 @@
+﻿2013-06-05 12:00:35.342=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 12:00:35.775=>ajax_Login Login OK!：1
+2013-06-05 12:00:35.995=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:00:36.054=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:00:38.456=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:00:41.706=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:00:41.724=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:00:43.296=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:00:46.209=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:00:49.375=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:07:32.952=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertMaster][M:<[Column '付款狀態' does not allow nulls.][   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]>]
+2013-06-05 12:07:32.969=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertCross][M:<[[Message:Column '付款狀態' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]][   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5646]>]
+2013-06-05 12:07:32.982=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_ShoppingUpdate][M:[Message:[Message:Column '付款狀態' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]][Track:   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5646]]
+2013-06-05 12:09:41.689=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 12:09:42.116=>ajax_Login Login OK!：1
+2013-06-05 12:09:42.332=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:09:42.389=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:09:44.735=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:09:46.681=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:09:46.697=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:09:48.317=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:09:50.296=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:09:53.485=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:10:29.396=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertMaster][M:<[Column '付款狀態' does not allow nulls.][   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]>]
+2013-06-05 12:10:29.413=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertCross][M:<[[Message:Column '付款狀態' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]][   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5646]>]
+2013-06-05 12:10:29.426=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_ShoppingUpdate][M:[Message:[Message:Column '付款狀態' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]][Track:   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5646]]
+2013-06-05 12:12:05.739=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 12:12:06.168=>ajax_Login Login OK!：1
+2013-06-05 12:12:06.384=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:12:06.439=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:12:08.866=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:12:43.072=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertMaster][M:<[Column '付款狀態' does not allow nulls.][   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]>]
+2013-06-05 12:12:43.088=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertCross][M:<[[Message:Column '付款狀態' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]][   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5646]>]
+2013-06-05 12:12:43.101=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_ShoppingUpdate][M:[Message:[Message:Column '付款狀態' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5772]][Track:   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5646]]
+2013-06-05 12:14:49.546=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-05 12:14:49.979=>ajax_Login Login OK!：1
+2013-06-05 12:14:50.199=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:14:50.260=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:14:52.740=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:14:59.912=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:14:59.948=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:15:01.486=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:15:03.491=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-05 12:15:06.599=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]

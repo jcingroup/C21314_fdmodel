@@ -1,0 +1,17 @@
+﻿2013-06-05 17:49:31.731=>[LogicError][I:0,::1,IE.10.0][a_OrderM.UpdatePayment][M:<[無法插入 NULL 值到資料行 '付款方式'，資料表 'C120A0_CarPurchase.dbo.訂單M'; 資料行不得有 Null。UPDATE 失敗。
+陳述式已經結束。][   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.UpdateDataAdapter() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 597
+   at ProcCore.Business.Logic.a_OrderM.UpdatePayment(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5942]>]
+2013-06-05 17:49:31.744=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_Reply][M:[Message:無法插入 NULL 值到資料行 '付款方式'，資料表 'C120A0_CarPurchase.dbo.訂單M'; 資料行不得有 Null。UPDATE 失敗。
+陳述式已經結束。][Track:   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.UpdateDataAdapter() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 597
+   at ProcCore.Business.Logic.a_OrderM.UpdatePayment(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5942]]
+2013-06-05 17:53:12.874=>[SystemError][I:0,::1,IE.10.0][OrderController.ajax_Reply][M:该笔订单已支付过]

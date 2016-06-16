@@ -1,0 +1,93 @@
+﻿@charset "utf-8"; 
+
+/*      Basic Layout
+-----------------------------------------------------------------------*/
+#container {
+	text-align:left;
+	width:976px;
+	height:100%;
+	margin:auto; *margin:0;
+	}
+
+#header,#main,#footer {
+	overflow:hidden;
+	position:relative;
+	}
+
+#header {
+	height:88px;
+	z-index:3;
+	}
+	
+#main {
+	padding:0 0 30px 0;
+	z-index:1;
+	*zoom:1;
+	}
+
+#footer {
+	text-align:left;
+	width:976px;
+	padding-bottom:30px;
+	margin:auto; *margin:0;
+	clear:both;
+	z-index:5;
+	}
+
+#content {
+	overflow:hidden;
+	}
+
+
+/*      header
+-----------------------------------------------------------------------*/
+h1 {	
+	background: url('../../images/logo.gif') no-repeat 0 0;
+	text-indent:-2000px;
+	width:240px; height:70px;
+	position:absolute;
+	top:15px; left:0;
+	cursor:pointer; cursor:hand;
+	z-index:20;
+	}
+
+/** 主選單 **/
+#menu {
+ position:absolute;
+ right:0; top:62px;
+ z-index:5;
+ }
+#menu li {
+ display:inline; float:left;
+ }
+
+#menu a {
+ display:block;
+ color:#D9D9D9;
+ font-size:.9em;
+ padding:0 8px;
+ }
+#menu a:hover {
+  color:#fff;
+  }
+
+/*      footer
+-----------------------------------------------------------------------*/
+/* 版權所有 */
+.copyright {
+	clear:both;
+	color:#B6B6B6;
+	font-size:.9em;
+	margin-left:20px;
+	}
+.copyright em {
+	color:#A52654;
+	}
+.copyright a {
+	background: url('../../images/icon_fb.gif') no-repeat 0 0;
+	display:inline-block;
+	text-indent:-9999px;
+	vertical-align:middle;
+	margin-left:8px;
+	width:21px; height:21px;
+	}

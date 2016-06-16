@@ -1,0 +1,27 @@
+﻿2013-05-29 10:31:53.395=>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2013-05-29 10:31:53.511=>[LogicError][I:0,::1,IE.10.0][a_Message.SearchMaster][M:<[A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)][   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.DataByAdapter(SqlDataAdapter parmSqlAdp) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1190
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.DataByAdapter() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1214
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.DataByAdapter[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1221
+   at ProcCore.Business.Logic.a_Message.SearchMaster(q_Message qr, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 6570]>]
+2013-05-29 10:31:53.522=>[LogicError][I:0,::1,IE.10.0][a_Product.SearchMaster][M:<[A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)][   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.DataByAdapter(SqlDataAdapter parmSqlAdp) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1190
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.DataByAdapter() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1214
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.DataByAdapter[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1221
+   at ProcCore.Business.Logic.a_Product.SearchMaster(q_Product qr, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5403]>]

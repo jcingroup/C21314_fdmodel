@@ -1,0 +1,51 @@
+﻿@{
+  Layout = "~/Views/Shared/Layout.cshtml";
+}
+@model ProcCore.Business.Logic.m_ModelData
+@section styles {
+ <link rel="stylesheet" href="~/Content/css/page.css">
+ <!-- 圖片輪播效果 -->
+ <script src="~/Scripts/slider/slider.js"></script>
+}
+
+<div id="content">
+	
+	<dl>
+		<dt>@Model.name</dt>
+		<dd>Height: @(Model.height)cm</dd>
+		<dd>Bust: @Model.bust</dd>
+		<dd>Waist: @Model.waist</dd>
+		<dd>Hips: @Model.hips</dd>
+		<dd>Shoes: @Model.shoes</dd>
+		<dd>Hair: @Model.hair</dd>
+		<dd>Eyes: @Model.eyes</dd>
+	</dl>
+
+	<div id="slider">
+        @foreach (var str in Html.ImagesAppendInfo("Sys_Active", "ModelData", @Model.id, "Series", 80))
+        {
+            <div class="contentdiv"><img src="@str"></div>
+        }
+	</div><!-- slider //-->
+
+	<div id="pager-slider">
+        @foreach (var str in Html.ImagesAppendInfo("Sys_Active", "ModelData", @Model.id, "Series", 550))
+        {
+            <a class="toc" href="#"><img src="@str"></a>
+        }
+	</div><!-- pager-slider //-->
+
+	<script type="text/javascript">
+	featuredcontentslider.init({
+		id: "slider",
+		contentsource: ["inline", ""],     //["inline", ""] or ["ajax", "path_to_file"]
+		toc: "markup",					 //"#increment", "markup", ["label1", "label2", etc]
+		nextprev: ["", ""],			    //"prev" and "next" links. Set to "" to hide.
+		revealtype: "mouseover",		   //"click" or "mouseover"
+		enablefade: [true, 0.1],
+		autorotate: [true, 3000],
+		onchange: function(previndex, curindex){}
+	})
+	</script>
+
+</div><!-- content //-->

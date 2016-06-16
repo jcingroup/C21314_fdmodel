@@ -1,0 +1,65 @@
+﻿@{
+	ViewBag.Title = "FASHION DIVISION:FDmodel Taipei, Taipei City FDmodel:汎迪國際:models, model, 國際時尚, 攝影, 平面模特兒, 廣告模特兒, 廣告, 媒體拍攝, 模特兒, akemi, leandro, fdmodel, fdmodels, fashion division, 明星, star";
+}
+
+<!DOCTYPE html>
+<html>
+<!-- saved from url=(0014)about:internet -->
+<head>
+ <meta charset="UTF-8">
+ <meta name="description" content="FASHION DIVISION is a new establish and high qualified modeling agency with a very strong background team of bookers in the Taiwanese market . Our agency has the target to establish new networks not only in the modeling fields , but also on movies , TV dramas , TV shows , etc... making all of the networks as one to promote our models and celebrities in the fashion industry .">
+ <meta name="keywords" content="models, model, 國際時尚, 攝影, 平面模特兒, 廣告模特兒, 廣告, 媒體拍攝, 模特兒, akemi, leandro, fdmodel, fdmodels, fashion division, 明星, star,">
+ <title>@ViewBag.Title</title>
+ <link rel="shortcut icon" type="image/x-icon" href="~/Content/images/favicon.ico">
+ @RenderSection("styles",false)
+</head>
+
+<body class="@ViewBag.BodyClass">
+
+<div id="container">
+
+	<div id="header">
+
+		<h1 onclick="location.href='@Url.Action("Index", "Index")'" title="回首頁">FASHION DIVISION:汎迪國際</h1>
+		
+		<ul id="menu">
+			<li><a href="~/AboutUs/AboutUs" title="About Us">ABOUT US</a></li>
+			<li><a href="~/Women/Women" title="Directbooking Women">WOMEN</a></li>
+			<li><a href="~/Men/Men" title="Directbooking Men">MEN</a></li>
+			<li><a href="~/Asia/Asia" title="Women Asia">ASIA DIVISION</a></li>
+			<li><a href="~/ContactUs/ContactUs" title="Contact Us">CONTACT</a></li>
+			<li><a href="~/BecomeModel/BecomeModel" title="Become a Model">BECOME A MODEL</a></li>
+		</ul>
+
+	</div><!-- header //-->
+
+	<div id="main">
+
+		@RenderBody()
+		
+		<div class="intro">
+			<ul><li>專注</li><li>經驗</li><li>創造</li></ul>
+			<p>您可從我們的攝影師身上期待這些特質，而且保證絕對超過您的期待！</p>
+			
+			<h4>我們做什麼？</h4>
+			<p>我是一名自由攝影記者，擅長於各式活動的拍攝。在我10年的專業攝影師生涯中，我曾拍攝許多婚禮、訂婚儀式、週年紀念日、新生兒慶祝、會議、家庭團聚和其他許多大型集會。我的宗旨就是將那些一生僅有的時刻化為永恆。</p>
+			
+			<h4>最新消息？</h4>
+			<ul>
+				<li>我已經更新我的線上作品集。請點擊這裡看我的最新作品。</li>
+				<li>我的照片最近獲得當代新娘的推薦！該文章可以從這裡連結。</li>
+			</ul>
+		</div><!-- intro //-->
+
+	</div><!--main //-->
+
+</div><!--container //-->
+
+<div id="footer">
+
+	<div class="copyright">Copyright <em>&copy; FASHION DIVISION, Inc.</em><a href="https://www.facebook.com/Fashiondivisionmodel" target="_blank">facebook</a></div>
+
+</div><!-- footer //-->
+    <script src="~/Scripts/GoogleAnalytics.js"></script>
+</body>
+</html>

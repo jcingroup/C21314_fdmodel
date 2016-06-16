@@ -1,0 +1,172 @@
+﻿@model ProcCore.Business.Logic.m_ModelData
+@using ProcCore;
+@using ProcCore.WebCore;
+@using ProcCore.JqueryHelp;
+@using ProcCore.JqueryHelp.DateTimePickerHelp;
+@using ProcCore.JqueryHelp.FormvValidate;
+@using ProcCore.JqueryHelp.CustomButton;
+@section IncludeScript{
+    @Html.Partial("Manage/includeScript_Comm")
+    @Html.Partial("Manage/includeScript_FineUpload")
+    <script type="text/javascript" src="~/_Code/ckeditor_4.1.2_full/ckeditor.js"></script>
+    <script type="text/javascript" src="~/_Code/ckfinder_aspnet_2.3.1/ckfinder.js"></script>
+}
+@section menu{
+    @Html.Raw(Session["MenuHtmlString"].ToString())
+}
+@{
+    FormValidateSetup val_frm_a = new FormValidateSetup(new jqSelector() { IdName = CommWebSetup.eleNameMasterDataForm });
+    val_frm_a.Add(Html.FieldsRuleSetup(x => x.name, new FieldRule() { required = true }, null, null));
+    val_frm_a.Add(Html.FieldsRuleSetup(x => x.sex, new FieldRule() { required = true }, null, null));
+    
+    jqSelector jq_for_btn_rtn = new jqSelector() { IdName = "btn_return_list" };
+    jqSelector jq_for_btn_sbm = new jqSelector() { IdName = "btn_submit" };
+    jqSelector jq_for_btn_opimg_fmwk = new jqSelector() { IdName = "btn_opdlg_imgs" };
+    jqSelector jq_for_btn_opimg_fmwk2 = new jqSelector() { IdName = "btn_opdlg_imgs2" };
+
+    funcMethodModule func = Html.CommSetFormOnSuccesss();
+}
+@using (Ajax.BeginForm(null, null, new AjaxOptions() { Url = Url.Action(CommWebSetup.acNameMasterDataUpdateData), HttpMethod = "post", OnSuccess = func.funcName }, new { id = CommWebSetup.eleNameMasterDataForm }))
+{
+    @Html.HiddenFor(x => x.id, new { @id = "id" })
+    @Html.HiddenFor(x => x.EditType)
+    <input type="hidden" id="returnQueryString" name="returnQueryString" value="@Html.Raw(ViewBag.QueryString)" />
+    
+    <div class="@ViewBag.css_Edit_Master_CaptionCss">
+        @ViewBag.Caption
+    </div>
+    <div class="@ViewBag.css_EditFormNoteCss">
+        @Resources.Res.Info_StarMustEdit
+    </div>
+    <fieldset>
+        <legend class="@ViewBag.css_Edit_Subtitle_CaptionCss">@Html.Lang("BaseData")</legend>
+        
+        <div class="info">
+        	<h3>圖片上傳注意事項：</h3>
+        	<ul>
+        		<li>- 圖片檔案大小請勿超過 2m</li>
+        		<li>- 代表圖尺寸 w160(px)*h227(px)</li>
+        		<li>- 圖片排列順序由圖片檔名來排序<br />ex:001.jpg → 002.jpg → 003.jpg....以此類推</li>
+        	</ul>
+        </div><!-- info -->
+        
+        <table>
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">@Html.LabelField("Test", Resources.Res.Info_FileUploader)</th>
+                <td>
+                    <button type="button" id="@jq_for_btn_opimg_fmwk.IdName">代表圖片上傳</button>
+                    <button type="button" id="@jq_for_btn_opimg_fmwk2.IdName">其他圖片上傳</button>
+                </td>
+            </tr>
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.name)</label></th>
+                <td>@Html.TextBoxFor(x => x.name, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.height)</label></th>
+                <td>@Html.TextBoxFor(x => x.height, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.bust)</label></th>
+                <td>@Html.TextBoxFor(x => x.bust, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+             <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.waist)</label></th>
+                <td>@Html.TextBoxFor(x => x.waist, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+             <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.hips)</label></th>
+                <td>@Html.TextBoxFor(x => x.hips, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+             <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.shoes)</label></th>
+                <td>@Html.TextBoxFor(x => x.shoes, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+             <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.hair)</label></th>
+                <td>@Html.TextBoxFor(x => x.hair, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+             <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.eyes)</label></th>
+                <td>@Html.TextBoxFor(x => x.eyes, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.sex)</th>
+                <td>@Html.RadioButtonFor(x => x.sex, "M")男生 @Html.RadioButtonFor(x => x.sex, "F") 女生</td>
+            </tr>
+            @{
+                List<System.Web.Mvc.SelectListItem> l = new List<System.Web.Mvc.SelectListItem>();
+                l.Add(new System.Web.Mvc.SelectListItem() { Text = "Default", Value = "Default" });
+                l.Add(new System.Web.Mvc.SelectListItem() { Text = "Asia", Value = "Asia" });
+                ViewBag.DivisionKind_Option = l;
+            }
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.division)</label></th>
+                <td>@Html.DropDownListFor(x => x.division, (List<SelectListItem>)ViewBag.DivisionKind_Option, new { @title = Html.TipLang(x => x.division) })</td>
+            </tr>
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.isopen)</th>
+                <td>@Html.RadioButtonFor(x => x.isopen, true)資訊開放 @Html.RadioButtonFor(x => x.isopen, false) 資訊關閉</td>
+            </tr>
+            <tr>
+                <th class="@ViewBag.css_EditFormFieldsNameCss">
+                    <label class="@ViewBag.css_EditFormFieldsNameCss">@Html.FieldLang(x => x.sort)</label></th>
+                <td>@Html.TextBoxFor(x => x.sort, new { @maxlength = 64, @size = 48 })</td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <div class="@ViewBag.css_EditFormNavigationFunctionCss">
+        <button type="submit" id="@jq_for_btn_sbm.IdName">
+            @(Model.EditType == EditModeType.Insert ? Resources.Res.Button_Sure_Insert : Resources.Res.Button_Sure_Modify)
+        </button>
+        <button type="button" id="@jq_for_btn_rtn.IdName">@Resources.Res.Button_Return</button>
+    </div>
+}
+@Html.Partial("Manage/includeFiledownload_iFrame")
+
+@Html.ImageFineUpLoad("hd_ImageUp", Resources.Res.Info_Title_ImageUpload, jq_for_btn_opimg_fmwk.IdName, "ajax_UploadFine", "ajax_ListFiles", "ajax_DeleteFiles", Model.id, "Main", 227, 160)
+@Html.ImageFineUpLoad("hd_ImageUp2", Resources.Res.Info_Title_ImageUpload, jq_for_btn_opimg_fmwk2.IdName, "ajax_UploadFine", "ajax_ListFiles", "ajax_DeleteFiles", Model.id, "Series", 550, 400)
+
+@{
+    //===
+    jqButton btn_sbm_fmwk = new jqButton(new jqSelector() { IdName = jq_for_btn_sbm.IdName });
+    btn_sbm_fmwk.options.icons.primary = FrameworkIcons.ui_icon_check;
+    
+    //===
+    jqButton btn_rtn_fmwk = new jqButton(jq_for_btn_rtn);
+    btn_rtn_fmwk.options.icons.primary = FrameworkIcons.ui_icon_arrowreturnthick_1_w;
+
+    jqElementEvent btn_rtn_evt_clk = new jqElementEvent(jq_for_btn_rtn) ;
+    btn_rtn_evt_clk.events.Add(new jqElementEvent.jqEvents() { htmlElementEvent= HtmlObjectEvent.click,funcString="document.location.href='" + Url.Action(CommWebSetup.acNameEditFormReturnGridList) + "?' + $('#returnQueryString').val();" });
+    //===
+    jqButton btn_opimg_fmwk = new jqButton(new jqSelector() { IdName = jq_for_btn_opimg_fmwk.IdName });
+    btn_opimg_fmwk.options.icons.primary = FrameworkIcons.ui_icon_arrow_4_diag;
+    //===
+    jqButton btn_opimg_fmwk2 = new jqButton(new jqSelector() { IdName = jq_for_btn_opimg_fmwk2.IdName });
+    btn_opimg_fmwk2.options.icons.primary = FrameworkIcons.ui_icon_arrow_4_diag;
+        
+    }
+<script type="text/javascript">
+    $(document).ready(function () {
+        @Html.Raw(val_frm_a.ToScriptString())
+        @Html.Raw(btn_opimg_fmwk.ToScriptString())
+        @Html.Raw(btn_opimg_fmwk2.ToScriptString())
+        @Html.Raw(btn_sbm_fmwk.ToScriptString())
+        @Html.Raw(btn_rtn_fmwk.ToScriptString())
+        @Html.Raw(btn_rtn_evt_clk.ToScriptString())
+        @Html.Raw(func.ToScriptString())
+    });
+    (function ($) {
+    })(jQuery);
+</script>

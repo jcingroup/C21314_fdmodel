@@ -1,0 +1,14 @@
+﻿2013-05-31 16:41:01.793=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertMaster][M:<[Column '收件人_Zip' does not allow nulls.][   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5710]>]
+2013-05-31 16:41:01.852=>[LogicError][I:0,::1,IE.10.0][a_OrderM.InsertCross][M:<[[Message:Column '收件人_Zip' does not allow nulls.][Track:   at System.Data.DataColumn.CheckNullable(DataRow row)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.AddRow() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 301
+   at ProcCore.Business.Logic.a_OrderM.InsertMaster(m_OrderM md, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5710]][   at ProcCore.Business.Logic.a_OrderM.InsertCross(m_OrderM MasterData, m_OrderS[] SubDatas, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5621]>]

@@ -1,0 +1,20 @@
+﻿@{
+  Layout = "~/Views/Shared/Layout.cshtml";
+}
+@model List<ProcCore.Business.Logic.m_ModelData>
+@section styles {
+ <link rel="stylesheet" href="~/Content/css/page.css">
+}
+
+<div id="content">
+
+	<h3>MEN</h3>
+
+	<ol class="prolist">
+        @foreach (var item in Model)
+        {
+            <li><a href="~/ModelDetail/ModelDetail?id=@item.id"><img src="@Html.ImgSrc("Sys_Active","ModelData",item.id,"Main",220)"></a><h6>@item.name</h6></li>
+        }
+	</ol>
+
+</div><!-- content //-->

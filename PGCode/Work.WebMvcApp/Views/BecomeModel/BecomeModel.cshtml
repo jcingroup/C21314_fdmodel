@@ -1,0 +1,96 @@
+﻿@{
+Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@section styles {
+ <link rel="stylesheet" href="~/Content/css/page.css">
+}
+
+<div id="content">
+
+	<form method="post">
+		<input type="hidden" name="__order" value="name姓名:::電子郵件類型:::mail電子郵件:::contarct_number電話:::gender性別:::gender性別_other:::date_of_brith出生年月日:::nationality國籍:::languages語言:::hight_cm_身高:::wight_kg_體重:::chest_cm_胸圍:::waist_cm_腰圍:::hips_cm_臀圍:::hair_color_髮色:::eyes_color_瞳孔色:::experiences經歷" />
+
+		<p>
+			<label>name 姓名 *</label>
+			<input class="name" type="text" name="name姓名">
+		</p>
+
+		<p>
+			<label>mail 電子郵件 *</label>
+			<input class="email" type="text" name="mail電子郵件">
+		</p>
+
+		<p>
+			<label>contarct number 電話 *</label>
+			<input class="tel" type="text" name="contarct_number電話">
+		</p>
+
+		<p>
+			<label>gender 性別</label>
+			<input class="sex" type="radio" name="gender性別" value="male先生"> male先生
+			<input class="sex" type="radio" name="gender性別" value="female小姐" checked> female小姐
+		</p>
+
+		<p>
+			<label>date of brith 出生年月日</label>
+			<input class="brith" type="text" name="date_of_brith出生年月日">
+		</p>
+
+		<p>
+			<label>nationality 國籍</label>
+			<input class="country" type="text" name="nationality國籍">
+		</p>
+
+		<p>
+			<label>languages 語言</label>
+			<input class="lang" type="text" name="languages語言">
+		</p>
+
+		<p>
+			<label>hight(cm) 身高</label>
+			<input class="body" type="text" name="hight_cm_身高">
+		</p>
+
+		<p>
+			<label>wight(kg) 體重</label>
+			<input class="body" type="text" name="wight_kg_體重">
+		</p>
+
+		<p>
+			<label>chest(cm) 胸圍</label>
+			<input class="body" type="text" name="chest_cm_胸圍">
+		</p>
+
+		<p>
+			<label>waist(cm) 腰圍</label>
+			<input class="body" type="text" name="waist_cm_腰圍">
+		</p>
+
+		<p>
+			<label>hips(cm) 臀圍</label>
+			<input class="body" type="text" name="hips_cm_臀圍">
+		</p>
+
+		<p>
+			<label>hair(color) 髮色</label>
+			<input class="body" type="text" name="hair_color_髮色">
+		</p>
+
+		<p>
+			<label>eyes(color) 瞳孔色</label>
+			<input class="body" type="text" name="eyes_color_瞳孔色">
+		</p>
+
+		<p>
+			<label>experiences 經歷</label>
+			<textarea name="experiences經歷" rows="3" style="width: 40ex"></textarea>
+		</p>
+
+		<div class="btnBar">
+			<input class="btn" type="submit" name="submit" value="送出">
+			<input class="btn" type="reset" name="reset" value="重設">
+		</div>
+</form>
+
+</div><!-- content //-->

@@ -1,0 +1,8 @@
+﻿2013-06-23 23:02:03.133=>[Info][I:0,::1,IE.10.0][a_Users.SystemLogin][M:登入檢查完成。]
+2013-06-23 23:02:03.624=>ajax_Login Login OK!：1
+2013-06-23 23:02:03.848=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-23 23:02:03.905=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-23 23:02:07.101=>[Info][I:0,::1,IE.10.0][zh-TW.Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; NP06)][M:]
+2013-06-23 23:08:40.922=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1266
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 5110]>]

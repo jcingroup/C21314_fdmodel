@@ -1,0 +1,21 @@
+﻿2013-06-05 14:03:15.390=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]
+2013-06-05 14:04:36.600=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]
+2013-06-05 14:05:49.048=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]
+2013-06-05 14:08:10.590=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]
+2013-06-05 14:15:39.779=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]
+2013-06-05 14:21:38.274=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]
+2013-06-05 14:23:01.305=>[LogicError][I:0,::1,IE.10.0][a_KindProduct.GetDataMaster][M:<[Sequence contains no elements][   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at ProcCore.DatabaseCore.SQLContextHelp.TablePack`1.GetDataByKey[m_Module]() in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCore\Core.DataBaseHelper\SQLContextHelp.cs:line 1251
+   at ProcCore.Business.Logic.a_KindProduct.GetDataMaster(Int32 id, Int32 accountId) in d:\300.TeamProjectWork\020_JcinRoom\C1202013004_富堤納購物網站\PGCode\Work.BusinessLogic\BusinessLogic.cs:line 4920]>]

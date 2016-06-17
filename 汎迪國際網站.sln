@@ -1,28 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work.BusinessLogic", "PGCode\\Work.BusinessLogic\Work.BusinessLogic.csproj", "{81F31D0B-5D7A-44F7-BA5B-362BF27FCC8D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work.WebApp", "PGCode\\Work.WebMvcApp\Work.WebApp.csproj", "{15DF1E9F-D17F-4692-8B96-FBA63E810370}"
-EndProject
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D4B4544A-F918-4EB8-B392-757867CA7CE5}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work.BusinessLogic", "PGCode\Work.BusinessLogic\Work.BusinessLogic.csproj", "{81F31D0B-5D7A-44F7-BA5B-362BF27FCC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work.WebApp", "PGCode\Work.WebMvcApp\Work.WebApp.csproj", "{15DF1E9F-D17F-4692-8B96-FBA63E810370}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = PGCode\\Work.BusinessLogic\\Work.BusinessLogic.csproj
-		SccProjectName1 = Work.BusinessLogic
-		SccLocalPath1 = Work.BusinessLogic
-		SccProjectUniqueName2 = PGCode\\Work.WebMvcApp\\Work.WebApp.csproj
-		SccProjectName2 = Work.WebMvcApp
-		SccLocalPath2 = Work.WebMvcApp
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms

@@ -1,0 +1,25 @@
+﻿@using ProcCore.Business.Logic.TablesDescription
+@using ProcCore.JqueryHelp
+@using ProcCore.JqueryHelp.JQGridScript
+
+@{
+    _CodeHead Tab = new _CodeHead();
+    _CodeSheet Tabd = new _CodeSheet();
+}
+@section IncludeScript{
+    @Html.Partial("Manage/includeScript_Comm")
+}
+@section menu{
+    @Html.Raw(Session["MenuHtmlString"].ToString())
+}
+
+<div class="@ViewBag.css_Edit_Master_CaptionCss">
+    @Html.Lang("title")
+</div>
+
+<fieldset>
+    <legend title="" class="@ViewBag.css_Edit_Subtitle_CaptionCss">
+        @Html.Lang("info")
+    </legend>
+
+</fieldset>

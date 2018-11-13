@@ -8,7 +8,7 @@
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{15DF1E9F-D17F-4692-8B96-FBA63E810370}</ProjectGuid>
-    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DotWeb.WebApp</RootNamespace>
@@ -235,6 +235,9 @@
     <Content Include="Content\home_flash.swf" />
     <Content Include="Content\images\about_bg.jpg" />
     <Content Include="Content\images\about_bg2.jpg" />
+    <Content Include="Content\images\banner\image1.jpg" />
+    <Content Include="Content\images\banner\image2.jpg" />
+    <Content Include="Content\images\banner\image3.jpg" />
     <Content Include="Content\images\icon_fb.gif" />
     <Content Include="Content\images\logo.gif" />
     <Content Include="Content\images\next.gif" />

@@ -234,3 +234,38 @@ dlg
 {
     display: none; padding: 16px; z-index: 254;
 }
+
+/*教學手冊*/
+.tutorial {
+    border: #06c dashed 1px;
+    margin-bottom: 5px;
+}
+.inner {
+    margin-top: 10px;
+}
+.down-list {
+    text-align: left;
+    border: 1px solid #4297d7;
+    background: #dfeffc url(_Code/images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+}
+.down-list:first-child {
+    border-bottom: none;
+}
+.down-list a {
+    display: block;
+    padding: 4px 0px 4px 3px;
+    list-style-type: none;
+    font-weight: normal;
+    margin: 1px 0px 1px 0px;
+    color: #1d5987;
+}
+.down-list a:hover {
+    color: #666666;
+    background: #fff;
+}
+.down-list em {
+    margin-right:10px;
+    padding: 4px 10px;
+    border-right: 1px solid #4297d7;
+}

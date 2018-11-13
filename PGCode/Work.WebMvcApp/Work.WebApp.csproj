@@ -233,6 +233,11 @@
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>ResWeb1.designer.cs</LastGenOutput>
     </Content>
+    <Content Include="Content\Doc\learn.css" />
+    <Content Include="Content\Doc\Md.html" />
+    <Content Include="Content\Doc\Md.mp4" />
+    <Content Include="Content\Doc\Password.html" />
+    <Content Include="Content\Doc\Password.mp4" />
     <Content Include="Content\home_flash.swf" />
     <Content Include="Content\images\about_bg.jpg" />
     <Content Include="Content\images\about_bg2.jpg" />

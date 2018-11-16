@@ -22,57 +22,52 @@
     filter: alpha(opacity=0);
 
 
-    -webkit-animation: round 12s linear infinite;
-            animation: round 12s linear infinite;
+    -webkit-animation: round 8s linear infinite;
+            animation: round 8s linear infinite;
 }
 
 
 @-webkit-keyframes round {
-    8.3% {
+    12.5% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 0 - 1s in*/
     }
-    33.3% {
+    50% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 1- 4s stop*/
     }
-    42.6% {
+    62.5% {
         opacity: 0;
         filter: alpha(opacity=0);
         /* 4-5s out*/
     }
 }
 @keyframes round {
-    8.3% {
+    12.5% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 0 - 1s in*/
     }
-    33.3% {
+    50% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 1- 4s stop*/
     }
-    42.6% {
+    62.5% {
         opacity: 0;
         filter: alpha(opacity=0);
        	/* 4-5s out*/
     }
 }
 
-.slider_container div:nth-child(3) {
+.slider_container div:nth-child(2) {
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
 }
 
-.slider_container div:nth-child(2) {
+.slider_container div:nth-child(1) {
     -webkit-animation-delay: 4s;
             animation-delay: 4s;
-}
-
-.slider_container div:nth-child(1) {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
 }

@@ -75,15 +75,15 @@ a:hover {
  }
 
 h3 {
-	color:#C0C0C0;
+	color:#FFCF40;
 	font-size:1.3em;
 	font-weight:bold;
 	line-height:160%;
 	text-align:center;
 	margin:15px 0 5px 0;
 	}
-.Women h3 { background:#EB0A64; }
-.Men h3 { background:#2E2E2E }
+.Women h3 { background:#000; }
+.Men h3 { background:#000 }
 
 h4 {
 	color:#F5F5F5;

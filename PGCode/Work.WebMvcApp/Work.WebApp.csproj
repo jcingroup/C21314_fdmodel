@@ -245,7 +245,10 @@
     <Content Include="Content\images\banner\image2.jpg" />
     <Content Include="Content\images\banner\image3.jpg" />
     <Content Include="Content\images\icon_fb.gif" />
+    <Content Include="Content\images\icon_fb.png" />
+    <Content Include="Content\images\icon_ig.png" />
     <Content Include="Content\images\logo.gif" />
+    <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\next.gif" />
     <Content Include="Content\images\previous.gif" />
     <Content Include="Content\images\sb.gif" />

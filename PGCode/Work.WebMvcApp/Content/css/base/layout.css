@@ -42,9 +42,9 @@
 /*      header
 -----------------------------------------------------------------------*/
 h1 {	
-	background: url('../../images/logo.gif') no-repeat 0 0;
+	background: url('../../images/logo.png') no-repeat 0 0;
 	text-indent:-2000px;
-	width:240px; height:70px;
+	width:279px; height:63px;
 	position:absolute;
 	top:15px; left:0;
 	cursor:pointer; cursor:hand;
@@ -81,13 +81,16 @@ h1 {
 	margin-left:20px;
 	}
 .copyright em {
-	color:#A52654;
+	color:#FFCF40;
 	}
 .copyright a {
-	background: url('../../images/icon_fb.gif') no-repeat 0 0;
+	background: url('../../images/icon_fb.png') no-repeat 0 0;
 	display:inline-block;
 	text-indent:-9999px;
 	vertical-align:middle;
 	margin-left:8px;
 	width:21px; height:21px;
 	}
+
+.copyright a:last-child {
+	background: url('../../images/icon_ig.png') no-repeat 0 0;}
